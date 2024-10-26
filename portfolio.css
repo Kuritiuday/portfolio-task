@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+.about-image img {
+    border: 5px solid white; /* Optional: Add a border to your image */
+}
+
+/* Custom styles for form inputs */
+.form-control {
+    border-radius: 0.5rem;
+}
